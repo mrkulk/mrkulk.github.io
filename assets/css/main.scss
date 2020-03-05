@@ -8,6 +8,7 @@
  *  - mademistakes.com
  *  - https://twitter.com/mmistakes
  *
+ * @import "syntax";
 */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
@@ -26,7 +27,7 @@
 @import "masthead";
 @import "navigation";
 @import "footer";
-@import "syntax";
+
 
 @import "forms";
 
