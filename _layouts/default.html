@@ -1,28 +1,30 @@
+---
+---
 
-<!DOCTYPE html>
-<html lang="en">
+{% include base_path %}
 
-	<head>
-		{% include head.html %}
-        {% include mathjax_support.html %}
-	</head>
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-	<body>
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-		{% include header.html %}
-		<main>
-			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
-		</main>
-		
-		{% if page.path contains '_posts' %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-			{% if content contains 'reversefootnote' %}
-				<aside class="note"></aside>
-				<script async src="{{site.baseurl}}/assets/footnotes.js"></script>
-			{% endif %}
+    {{ content }}
 
-		{% endif %}
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 
-	</body>
+    {% include scripts.html %}
 
+  </body>
 </html>
