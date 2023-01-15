@@ -1,7 +1,6 @@
 # main links links
 main:
   - title: "Blog"
-    url: /posts/
-
+    url: /posts/ 
   - title: "Papers"
     url: https://scholar.google.com/citations?hl=en&user=rrPyvsgAAAAJ&view_op=list_works&sortby=pubdate/
