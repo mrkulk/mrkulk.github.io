@@ -8,7 +8,7 @@ use_math: true
 
 
 
-This is a strongly-opinionated dialogue between an AGI believer and a skeptic (S). ChapGPT playes the role of the believer but uses my help to filter via finer prompting. When simulating the skeptic, I try hard to generate a criticial question and formulate the right prompt(s). 
+This is a strongly-opinionated dialogue between an AGI believer and a skeptic (S). ChapGPT plays the role of the believer but uses my help to filter via finer prompting. When simulating the skeptic, I try hard to generate a criticial question and formulate the right prompt(s). 
 
 
 
