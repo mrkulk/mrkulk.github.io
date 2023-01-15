@@ -6,7 +6,6 @@ comments: true
 use_math: true
 ---
 
-> This is a running post aggregating some key open questions in Machine Intelligence. If you want to suggest an update, comment below.  
 
 ## Building predictive models of the world at different temporal resolutions
 Existing agents do not understand the environment we inhabit. In order to efficiently plan with minimal environmental interactions, it is necessary for the agent to learn knowledge at different spatio-temporal abstractions. For example, even if you haven't been in a car crash, you can predict sequence of high-level events following the crash or you could even imagine rough visual imagery of the scene. Current AI systems are nowhere close to achieving such a feat. 
