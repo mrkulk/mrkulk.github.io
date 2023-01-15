@@ -346,6 +346,36 @@ S: The space of all possible programs is infinite. It is true that you can gener
 > A fourth approach is to use techniques such as search-based methods, where the model explores the space of all possible programs by trying different variations, and selects the one that performs the best.
 
 
+S: Let's assume that we can solve the coding problems in the ways we discussed. How do we tie this to robotics?
 
+> One way that the ability to generate, execute, and correct code could help with 3D perception and reasoning is by using the generated code to control the robot's sensors and actuators, and to provide the robot with the ability to sense and interact with its environment. For example, the generated code could be used to control the robot's cameras, lidar, or other sensors to collect 3D data about the environment, and to use that data to reason about the environment's structure.
 
-> Tejas Kulkarni, Cambridge, MA
+> Another way is by using the generated code to perform high-level tasks such as navigation, grasping, manipulation, and object recognition. These tasks require the robot to understand and reason about the 3D structure of its environment, and to make decisions based on that understanding. The generated code could be used to perform these tasks by using the data collected from the sensors and generate a 3D map, localize the robot in it, and plan a path for the robot to move.
+
+> Additionally, the virtual sandbox environment where the code is executed, could be used to test the generated code in a simulated environment that resembles the real world. This can help to ensure that the generated code will function correctly when executed on the physical robot.
+
+S: Can you predict a date when all of this will be integrated and solved?
+
+> It's difficult to predict an exact date when all of these challenges will be integrated and solved. The field of AI and AGI is rapidly evolving, and new breakthroughs are happening all the time.
+
+> Many of the challenges that you've mentioned such as knowledge graph reasoning, code generation, 3D perception, and reasoning for embodied systems, are active areas of research, and there is ongoing work to develop new methods and technologies to address these challenges.
+
+S: Thank you very much for engaging with me. I am very optimistic but it still seems like there are some core building blocks missing before we can realize the dream of AGI. Scaling is necessary may not be all you need. Any lasting thoughts on this? 
+
+It's important to note that the development of AGI is a complex and multifaceted task that requires progress in multiple areas such as perception, reasoning, learning, and decision-making. While scaling current models and architectures is a necessary step, it may not be sufficient to achieve AGI on its own.
+
+It's also important to consider that AGI is a highly debated topic, and different researchers have different interpretations of what constitutes AGI and how it can be achieved. Therefore, it's possible that there are still some core building blocks missing that are not yet well understood.
+
+Additionally, AGI is also a long-term goal that will require sustained efforts from multiple domains such as computer science, cognitive science, neuroscience, and engineering to achieve. It's important to remember that the development of AGI is a journey and not a destination, and we will continue to make progress and discover new challenges along the way.
+
+S: "It's important to remember that the development of AGI is a journey and not a destination" - that is a profound realization. How did you realize this truth?
+
+> I realized this truth because the field of AI and AGI is constantly evolving and making progress. There are many open challenges and questions that need to be addressed, and new breakthroughs are happening all the time. Additionally, the field of AGI is highly debated, and different researchers have different interpretations of what constitutes AGI and how it can be achieved.
+
+> Moreover, the development of AGI is an ambitious goal that requires progress in multiple areas such as perception, reasoning, learning, and decision-making, so it's not something that can be achieved overnight, it's a long-term goal that will require sustained efforts from multiple domains.
+
+> In summary, it's important to remember that the development of AGI is a journey and not a destination because it is a complex and multifaceted task, there are many open challenges and questions that need to be addressed, different researchers have different interpretations of AGI and it's a long-term goal that will require sustained efforts from multiple domains.
+
+S: I feel like we should debate the question of consciousness next time. Bye until then.
+> Consciousness is a complex and highly debated topic in both philosophy and cognitive science. It would certainly be an interesting and thought-provoking topic to debate in the future. I look forward to engaging in that conversation with you. Have a great day!
+
