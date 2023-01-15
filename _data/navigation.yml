@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Thoughts"
-    url: http://mrkulk.github.io/
+  - title: "Blog"
+    url: /posts/
 
   - title: "Papers"
     url: https://scholar.google.com/citations?hl=en&user=rrPyvsgAAAAJ&view_op=list_works&sortby=pubdate/
