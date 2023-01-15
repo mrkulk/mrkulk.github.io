@@ -10,10 +10,10 @@ locale                   : "en"
 title                    : "Tejas Kulkarni"
 title_separator          : "-"
 name                     : "Tejas Kulkarni"
-description              : "AI Researcher. Scientist at DeepMind. MIT PhD."
-url                      : "https://tejasdkulkarni.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "AI Researcher. Founder @ Common Sense Machines."
+url                      : "https://mrkulk.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "tejasdkulkarni/tejasdkulkarni.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "mrkulk/mrkulk.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Tejas D Kulkarni"
   avatar           : "bio-photo.jpg"
-  bio              : "AI Researcher. Scientist at DeepMind. MIT PhD."
-  location         : "London"
+  bio              : "AI Researcher. Founder @ Common Sense Machines."
+  location         : "Cambridge, MA."
   email            : "tejasdkulkarni@gmail.com"
   uri              :
   bitbucket        :
