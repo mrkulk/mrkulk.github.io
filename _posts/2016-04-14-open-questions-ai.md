@@ -16,7 +16,7 @@ Existing agents do not understand the environment we inhabit. In order to effici
 ## The nature and origin of goals and intrinsic motivation
 Let us start with the notion of value functions $V(s)$, where $s$ denotes the state of the world. $V(s)$ caches the utility of $s$ towards achieving any desidred goal $g$. In typical reinforcement learning settings, the agent observes rewards and states from the environment and takes actions to estimate the value function:
 
-$$ V(s) = max\_{\pi} \mathbb E ( \sum_{t'=t}^\infty \gamma^{t'-t} r\_{t'} \mid s\_t=s, \pi ) $$
+$V(s) = max\_{\pi} \mathbb E ( \sum_{t'=t}^\infty \gamma^{t'-t} r\_{t'} \mid s\_t=s, \pi )$
 
 Here $\gamma$ denotes a discount factor which ensures a convergent series when the episode length $t$ is arbitrary. $\pi$ denotes the goal-directed policy that maps states to actions. 
 
