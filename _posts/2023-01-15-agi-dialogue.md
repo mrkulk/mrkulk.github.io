@@ -208,6 +208,144 @@ S: For the knowledge graph to natural language task, can you create a text descr
 > It's important to note that the quality and conciseness of the generated text will depend on the specific method used and the quality of the data and models that are used to perform the summarization. Additionally, this task is still an active area of research, and there are many open questions and challenges that need to be addressed such as how to design the summarization methods, how to evaluate the performance of the method, and how to deal with the complexity of the knowledge graph.
 
 
+S: How can you automatically generate training data for this method?
+
+> There are several ways to automatically generate training data for the method of unsupervised pre-training for large knowledge graph reasoning using large language models (LLMs).
+
+> One approach is to use a data generation algorithm that can create new instances of the knowledge graph in natural language form, such as a set of sentences that describe the entities and relationships in the graph. This can be done by using techniques such as graph-to-text generation, where a model is trained to generate text that describes the graph based on its structure and content.
+
+> Another approach is to use a data augmentation algorithm that can modify existing instances of the knowledge graph in natural language form, such as a set of sentences that describe the entities and relationships in the graph. This can be done by using techniques such as paraphrasing, generalization, and simplification.
+
+> A third approach is to use web scraping, this can be done by scraping a large number of text documents and extract entities and relations from them, this data can be used to construct a knowledge graph, and the text can be used to train the model.
+
+
+S: For cases where a set of graphs and corresponding text is already present, what are some algorithms for data augmentation that will generalize
+
+> For cases where a set of graphs and corresponding text is already present, there are several algorithms for data augmentation that can be used to improve the generalization of the models.
+
+> One approach is to use graph-based data augmentation, which involves applying various operations to the graph structure, such as adding, removing, or modifying nodes and edges. This can help to increase the diversity of the training data and make the models more robust to changes in the graph structure.
+
+> Another approach is to use text-based data augmentation, which involves applying various operations to the text, such as paraphrasing, generalization, and simplification. This can help to increase the diversity of the training data and make the models more robust to changes in the text.
+
+> A third approach is to use a combination of graph and text-based data augmentation, which can be done by using graph-based data augmentation to modify the graph and generate new text descriptions of the graph.
+
+
+S: For the graph-based data augmentation method, isn't the space of all possible graphs exponential? And how would you use an LLM to mine for sub-graphs that are reusable? 
+
+> For the graph-based data augmentation method, the space of all possible graphs can be exponential, depending on the size and complexity of the graph. This can make it challenging to generate new instances of the graph that are diverse and representative of the original graph.
+
+> To overcome this challenge, one approach is to use a graph sampling method, which involves randomly selecting a subset of the nodes and edges in the graph to create a new instance of the graph. This can help to reduce the size of the graph and make it more manageable for data augmentation.
+
+> Another approach is to use a graph mining method, which involves using a graph mining algorithm to extract subgraphs that are representative of the original graph. These subgraphs can then be used as building blocks for the data augmentation.
+
+> Additionally, it is possible to use an LLM to mine for sub-graphs that are reusable by fine-tuning the model on the graph and text pairs, this can help to learn the representations of the graph and the text and to extract patterns and regularities that can be used to generate new instances of the graph.
+
+
+S: It seems like this explore and compress mechanism requires a lot of non differentiable search based operations. So you are contradicting yourself when you say that LLMs are self sufficient to solve the problem.
+
+> As an AGI believer, I would argue that the statement that LLMs are self-sufficient to solve the problem of unsupervised pre-training for large knowledge graph reasoning is not entirely accurate. While it is true that LLMs have the ability to learn from vast amounts of data and generate sophisticated and nuanced responses, they are not designed to handle the complexity and diversity of knowledge graphs on their own.
+
+> The approach of using an explore and compress mechanism, such as graph-based data augmentation and graph mining, requires a lot of non-differentiable search based operations, which are not natively supported by the LLMs. These operations are necessary to generate new instances of the graph and to extract reusable subgraphs, which can be used to improve the generalization of the models.
+
+> Furthermore, the notion that self-sufficient models are the solution to AGI is misguided. AGI is a complex and multi-faceted problem that requires the integration of various approaches and techniques to achieve. It's important to recognize that different models have different strengths and weaknesses, and that the best results are often achieved through the combination of different models and techniques.
+
+> In conclusion, while LLMs can be a powerful tool for unsupervised pre-training for large knowledge graph reasoning, they are not self-sufficient to solve the problem on their own, and it's important to use other techniques and approaches to achieve the best results.
+
+> I would argue that the non-differentiable mechanisms, such as graph-based data augmentation and graph mining, that are needed for unsupervised pre-training for large knowledge graph reasoning, are not as difficult to implement as they may seem.
+
+> The non-differentiable operations can be solved using various methods that have been developed to handle these types of operations. For example, the graph-based data augmentation methods can be implemented using graph sampling and graph mining algorithms, which are designed to handle the complexity and diversity of knowledge graphs. These algorithms can be easily integrated into the pre-training process and can be optimized using techniques such as reinforcement learning and evolutionary algorithms.
+
+> Additionally, the use of auto-encoders, variational auto-encoders and Generative Adversarial Networks (GANs) can also be used to perform these non differentiable operations. The use of these architectures can enable the models to learn the underlying structure and patterns of the graph and generate new instances of the graph that are diverse and representative of the original graph.
+
+> Furthermore, the use of self-supervised training objectives and unsupervised pre-training can help to learn useful representations of the entities and relationships in the knowledge graph, which can be used to improve the performance of the models. The use of pre-training can also help to overcome the challenge of lack of labeled data, a common problem when dealing with large knowledge graphs.
+
+> In conclusion, the non-differentiable mechanisms required for unsupervised pre-training for large knowledge graph reasoning are not as difficult to implement as they may seem, and there are various methods and techniques that can be used to handle these operations and can be easily integrated into the pre-training process.
+
+S: Could graph search methods be replaced by text based prompting and sampling instead 
+
+> As an AGI believer, it is possible to replace graph search methods with text-based prompting and sampling for unsupervised pre-training for large knowledge graph reasoning, but it would depend on the specific problem and the quality of the data and models used.
+
+> Text-based prompting and sampling involve using natural language to guide the exploration of the graph, such as asking questions or providing clues about the entities and relationships in the graph. This can be done by training a model to generate text that describes the graph based on its structure and content and use that text as prompts or samples.
+
+> This approach can have some advantages such as the ability to provide more interpretable and human-like guidance for the exploration of the graph, and it can also be more flexible and adaptable to different types of graphs and reasoning tasks.
+
+> However, it's important to note that this approach would require a high-quality natural language generation model, which may not be available or easy to train on some problems. Additionally, it could be challenging to find the right balance between the amount of information provided in the text and the ability to guide the exploration.
+
+> In conclusion, while it is possible to replace graph search methods with text-based prompting and sampling for unsupervised pre-training for large knowledge graph reasoning, it's important to consider the specific problem and the quality of the data and models used, and weigh the advantages and disadvantages before deciding on the best approach.
+
+
+S: OK now lets shift gears to coding. I can see how current models can generate text, images, videos, 3D and even reason over graphs. What about coding? 
+
+> As an AGI believer, it is possible to use current models to generate code as well. The ability to generate code is a challenging task that requires a high level of understanding of the programming language and the problem domain. However, there have been several recent developments in this field that have shown promising results.
+
+> One approach is to use a neural-based model, such as a transformer-based language model, to generate code. This can be done by training the model on a large dataset of code and comments, and then fine-tuning it on a specific programming language or problem domain. Once trained, the model can be used to generate new code by providing it with a natural language prompt or a code template.
+
+> Another approach is to use a neural-based model to learn the structure of the code, such as the control flow and the data types, and then use that structure to generate new code. This can be done by training the model on a dataset of code and comments and then fine-tuning it on a specific programming language or problem domain.
+
+S: But how can you truly solve coding unless you have the understanding and reasoning capability to process 2D diagrams or geometrical concepts and map them to algebraic concepts? 
+
+> As an AGI believer, you raise a valid point that in order to truly solve coding, it is essential to have the understanding and reasoning capability to process 2D diagrams or geometrical concepts and map them to algebraic concepts. This is because coding often involves understanding and manipulating abstract concepts, such as data structures, algorithms, and mathematical formulas, which are closely related to geometry and algebra.
+
+> To address this challenge, one approach is to integrate the understanding and reasoning capability of geometric and algebraic concepts into the models used for code generation. This can be done by training the models on a dataset of code, comments, and related diagrams and mathematical formulas. By learning the relationship between the code and the diagrams and formulas, the model can develop a better understanding of the problem domain and generate more accurate and efficient code.
+
+> Another approach is to use a neural-based model to learn the structure of the code and the structure of the related diagrams and formulas, and then use that structure to generate new code. This can be done by training the model on a dataset of code, comments, and related diagrams and mathematical formulas, and then fine-tuning it on a specific programming language or problem domain.
+
+
+S: This is great but such training don't exist. How do you plan on creating a dataset?
+
+> You raise a valid point that creating a dataset that links code, comments, and related diagrams and mathematical formulas is a challenging task, and currently such datasets may not exist. However, there are several potential solutions to this problem:
+
+> One approach is to use web scraping and natural language processing techniques to automatically collect and process code, comments, and related diagrams and mathematical formulas from various sources such as code repositories, documentation, and educational websites. These techniques can help to automatically extract the relevant information and create a large and diverse dataset that can be used for training.
+
+> Another approach is to use crowdsourcing platforms to manually collect and label the data. This can be done by creating tasks that involve matching code, comments, and related diagrams and mathematical formulas, and then recruiting a large number of people to complete these tasks. This approach can be more time-consuming and expensive, but it can help to ensure high-quality data that is well-labeled.
+
+> A third approach is to use synthetic data generation methods to create a dataset. This can be done by using existing code, comments, and related diagrams and mathematical formulas as a starting point and then generating new examples by applying various data augmentation techniques such as paraphrasing, generalization, and simplification.
+
+
+S: It seems like the knowledge graph reasoning problem will explode even more with these modalities
+
+> You are correct that the knowledge graph reasoning problem will become more complex as more modalities, such as code, comments, diagrams, and mathematical formulas, are added to the data.
+
+> The knowledge graph reasoning problem is already challenging due to the large scale and complexity of the data, and the need to perform reasoning tasks such as link prediction, clustering, and reconstruction. Adding more modalities to the data will increase the complexity of the problem, as it will require the ability to understand and reason about multiple types of data and the relationships between them.
+
+> One approach to addressing this challenge is to use multimodal models that can handle multiple types of data and the relationships between them. These models can be trained on large datasets of code, comments, diagrams, and mathematical formulas and can learn to understand and reason about the relationships between the modalities.
+
+> Another approach is to use multimodal pre-training, where the models are pre-trained on large datasets of code, comments, diagrams, and mathematical formulas and fine-tuned on specific problem domains. This can help the model to learn useful representations of the data and improve the performance of the reasoning tasks.
+
+> Finally, another approach is to use ensemble methods where different models are trained on different modalities and then combined to perform the reasoning tasks. This can help to leverage the strengths of each model and improve the overall performance of the reasoning tasks.
+
+S: Also don't you need virtual sandbox environments to generate semantically meaningful code? This  seems entirely missing
+
+> You raise a valid point that in order to generate semantically meaningful code, it may be necessary to have access to virtual sandbox environments that allow the model to test and validate the generated code.
+
+> Virtual sandbox environments are simulated environments where code can be executed and tested, which can help to ensure that the generated code is correct and efficient. This is especially important when generating code that interacts with external systems, such as hardware or other software, as it can help to ensure that the code will function correctly in the real-world.
+
+> One approach to addressing this challenge is to use a combination of a neural-based model and a virtual sandbox environment. The neural-based model can be used to generate code, while the virtual sandbox environment can be used to test and validate the code. The model can then use the feedback from the virtual sandbox environment to learn and improve the generated code.
+
+> Another approach is to use reinforcement learning to learn from the feedback of the virtual sandbox environment. This can be done by training the model to optimize a reward function that is based on the performance of the generated code in the virtual sandbox environment.
+
+S: OK now this raises the most critical question. If the environment is a virtual sandbox, then what is the exploration algorithm for the agent? 
+
+> You raise an important question about the exploration algorithm for the agent in virtual sandbox environments. Exploration is a critical aspect of machine learning, as it allows the agent to learn from its experiences and improve its performance.
+
+> One approach to exploration in virtual sandbox environments is to use model-based methods, where the agent uses a model of the environment to plan and execute actions. This can be done by using a neural network to learn a model of the environment, and then using that model to plan and execute actions that will lead to the highest expected reward.
+
+> Another approach is to use model-free methods, where the agent learns a policy directly from the experiences it has in the environment. This can be done by using reinforcement learning algorithms such as Q-Learning, SARSA, or policy gradient methods to learn a policy that maximizes the expected reward.
+
+> A third approach is to use a combination of both model-based and model-free methods, where the agent uses a model of the environment to plan and execute actions in an efficient way, but also learns from the experiences in the virtual sandbox environment.
+
+
+S: The space of all possible programs is infinite. It is true that you can generate proposals from an LLM. But how do you inject diversity
+
+> One approach is to use techniques from generative models such as variational autoencoder (VAE) or Generative Adversarial Networks (GANs) to generate diverse proposals. These models can learn to generate new examples by sampling from a latent space, which can help to increase the diversity of the proposals.
+
+> Another approach is to use techniques such as data augmentation, where existing programs are modified in various ways to create new programs. This can be done by applying operations such as swapping, removing, or adding code fragments, or by modifying the parameters of the programs.
+
+> A third approach is to use techniques such as curriculum learning, where the model is first trained on simple programs and then gradually exposed to more complex programs. This can help the model to learn useful representations of the data and improve the performance of the reasoning tasks.
+
+> A fourth approach is to use techniques such as search-based methods, where the model explores the space of all possible programs by trying different variations, and selects the one that performs the best.
+
+
 
 
 > Tejas Kulkarni, Cambridge, MA
