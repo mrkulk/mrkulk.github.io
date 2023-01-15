@@ -6,6 +6,10 @@ comments: true
 use_math: true
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 > This is a running post aggregating some key open questions in Machine Intelligence. If you want to suggest an update, comment below.  
 
 ## Building predictive models of the world at different temporal resolutions
