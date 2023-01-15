@@ -8,8 +8,26 @@ Before that I was a PhD student at MIT in Josh Tenenbaum's group in the Brain & 
 
 Currently I am interested in building an AI learns to create and program 3D worlds. 
 
+<section>
+	<ul>
 
-{% include base_path %}
+		{% for post in site.posts %}
+
+		<li>
+			<div class="post-date">
+				<span>{{ post.date | date: "%b %d, %Y" }}</span>
+			</div>
+			<div class="title">
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</div>
+		</li>
+
+		{% endfor %}
+
+	</ul>
+</section>
+
+<!-- {% include base_path %}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
@@ -18,3 +36,4 @@ Currently I am interested in building an AI learns to create and program 3D worl
 {% endfor %}
 
 {% include paginator.html %}
+ -->
