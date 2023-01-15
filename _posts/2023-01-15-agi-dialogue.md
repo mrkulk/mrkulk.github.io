@@ -1,5 +1,5 @@
 ---
-title: AGI dialogue skeptic <> believer
+title: AGI Dialogue: Skeptic <> Believer
 updated: 2016-04-14 04:04
 layout: post
 comments: true
