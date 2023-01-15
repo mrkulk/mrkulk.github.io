@@ -1,5 +1,5 @@
 ---
-title: Open questions in machine intelligence
+title: AGI dialogue skeptic <> believer
 updated: 2016-04-14 04:04
 layout: post
 comments: true
