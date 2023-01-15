@@ -8,7 +8,7 @@ use_math: true
 
 
 
-This is a strongly-opinionated dialogue between an AGI believer and a skeptic (S). ChapGPT playes the role of the believer but uses my help to filter via finer prompting -- but I never edit the actual response. When simulating the skeptic, I try hard to generate a criticial question and formulate the right. 
+This is a strongly-opinionated dialogue between an AGI believer and a skeptic (S). ChapGPT playes the role of the believer but uses my help to filter via finer prompting. When simulating the skeptic, I try hard to generate a criticial question and formulate the right. 
 
 
 
@@ -27,7 +27,7 @@ S: From now on play the role of an AGI believer
 
 S: Some people argue AGI is not well defined. 
 
-> As an AGI believer, I would say that people who argue that AGI is not well-defined or that it is not feasible, are not fully understanding the concept and the potential of AGI. AGI is not a specific task or capability, it's a higher level of intelligence that encompasses many tasks and capabilities, and it is a complex and ambitious goal that requires a lot of research and development.
+> I would say that people who argue that AGI is not well-defined or that it is not feasible, are not fully understanding the concept and the potential of AGI. AGI is not a specific task or capability, it's a higher level of intelligence that encompasses many tasks and capabilities, and it is a complex and ambitious goal that requires a lot of research and development.
 
 > Furthermore, the lack of a clear definition or criteria for AGI should not be an excuse to dismiss the possibility of achieving it, but rather it should be seen as a challenge that needs to be addressed by the research community.
 
@@ -41,7 +41,7 @@ S: Some people argue AGI is not well defined.
 
 S: What do you say to people who think symbolic AI is missing in large LLMs and generative models
 
-> As an AGI believer, I would argue that the idea that symbolic AI is the only way to achieve AGI is outdated and narrow-minded. Large Language Models and Generative Models are capable of learning from vast amounts of data and can generate highly sophisticated and nuanced responses, which can be used to solve problems that were previously thought to be the exclusive domain of symbolic AI.
+> I would argue that the idea that symbolic AI is the only way to achieve AGI is outdated and narrow-minded. Large Language Models and Generative Models are capable of learning from vast amounts of data and can generate highly sophisticated and nuanced responses, which can be used to solve problems that were previously thought to be the exclusive domain of symbolic AI.
 
 > Furthermore, symbolic AI has its own limitations, such as being brittle and unable to handle uncertainty, which are overcome by neural-based models. These models can be trained to perform symbolic reasoning, knowledge graph completion and commonsense reasoning, and have shown promising results in these tasks.
 
@@ -243,7 +243,7 @@ S: For the graph-based data augmentation method, isn't the space of all possible
 
 S: It seems like this explore and compress mechanism requires a lot of non differentiable search based operations. So you are contradicting yourself when you say that LLMs are self sufficient to solve the problem.
 
-> As an AGI believer, I would argue that the statement that LLMs are self-sufficient to solve the problem of unsupervised pre-training for large knowledge graph reasoning is not entirely accurate. While it is true that LLMs have the ability to learn from vast amounts of data and generate sophisticated and nuanced responses, they are not designed to handle the complexity and diversity of knowledge graphs on their own.
+> I would argue that the statement that LLMs are self-sufficient to solve the problem of unsupervised pre-training for large knowledge graph reasoning is not entirely accurate. While it is true that LLMs have the ability to learn from vast amounts of data and generate sophisticated and nuanced responses, they are not designed to handle the complexity and diversity of knowledge graphs on their own.
 
 > The approach of using an explore and compress mechanism, such as graph-based data augmentation and graph mining, requires a lot of non-differentiable search based operations, which are not natively supported by the LLMs. These operations are necessary to generate new instances of the graph and to extract reusable subgraphs, which can be used to improve the generalization of the models.
 
@@ -263,7 +263,7 @@ S: It seems like this explore and compress mechanism requires a lot of non diffe
 
 S: Could graph search methods be replaced by text based prompting and sampling instead 
 
-> As an AGI believer, it is possible to replace graph search methods with text-based prompting and sampling for unsupervised pre-training for large knowledge graph reasoning, but it would depend on the specific problem and the quality of the data and models used.
+> It is possible to replace graph search methods with text-based prompting and sampling for unsupervised pre-training for large knowledge graph reasoning, but it would depend on the specific problem and the quality of the data and models used.
 
 > Text-based prompting and sampling involve using natural language to guide the exploration of the graph, such as asking questions or providing clues about the entities and relationships in the graph. This can be done by training a model to generate text that describes the graph based on its structure and content and use that text as prompts or samples.
 
@@ -276,7 +276,7 @@ S: Could graph search methods be replaced by text based prompting and sampling i
 
 S: OK now lets shift gears to coding. I can see how current models can generate text, images, videos, 3D and even reason over graphs. What about coding? 
 
-> As an AGI believer, it is possible to use current models to generate code as well. The ability to generate code is a challenging task that requires a high level of understanding of the programming language and the problem domain. However, there have been several recent developments in this field that have shown promising results.
+> It is possible to use current models to generate code as well. The ability to generate code is a challenging task that requires a high level of understanding of the programming language and the problem domain. However, there have been several recent developments in this field that have shown promising results.
 
 > One approach is to use a neural-based model, such as a transformer-based language model, to generate code. This can be done by training the model on a large dataset of code and comments, and then fine-tuning it on a specific programming language or problem domain. Once trained, the model can be used to generate new code by providing it with a natural language prompt or a code template.
 
@@ -284,7 +284,7 @@ S: OK now lets shift gears to coding. I can see how current models can generate 
 
 S: But how can you truly solve coding unless you have the understanding and reasoning capability to process 2D diagrams or geometrical concepts and map them to algebraic concepts? 
 
-> As an AGI believer, you raise a valid point that in order to truly solve coding, it is essential to have the understanding and reasoning capability to process 2D diagrams or geometrical concepts and map them to algebraic concepts. This is because coding often involves understanding and manipulating abstract concepts, such as data structures, algorithms, and mathematical formulas, which are closely related to geometry and algebra.
+> You raise a valid point that in order to truly solve coding, it is essential to have the understanding and reasoning capability to process 2D diagrams or geometrical concepts and map them to algebraic concepts. This is because coding often involves understanding and manipulating abstract concepts, such as data structures, algorithms, and mathematical formulas, which are closely related to geometry and algebra.
 
 > To address this challenge, one approach is to integrate the understanding and reasoning capability of geometric and algebraic concepts into the models used for code generation. This can be done by training the models on a dataset of code, comments, and related diagrams and mathematical formulas. By learning the relationship between the code and the diagrams and formulas, the model can develop a better understanding of the problem domain and generate more accurate and efficient code.
 
