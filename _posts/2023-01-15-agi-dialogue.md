@@ -362,11 +362,11 @@ S: Can you predict a date when all of this will be integrated and solved?
 
 S: Thank you very much for engaging with me. I am very optimistic but it still seems like there are some core building blocks missing before we can realize the dream of AGI. Scaling is necessary may not be all you need. Any lasting thoughts on this? 
 
-It's important to note that the development of AGI is a complex and multifaceted task that requires progress in multiple areas such as perception, reasoning, learning, and decision-making. While scaling current models and architectures is a necessary step, it may not be sufficient to achieve AGI on its own.
+> It's important to note that the development of AGI is a complex and multifaceted task that requires progress in multiple areas such as perception, reasoning, learning, and decision-making. While scaling current models and architectures is a necessary step, it may not be sufficient to achieve AGI on its own.
 
-It's also important to consider that AGI is a highly debated topic, and different researchers have different interpretations of what constitutes AGI and how it can be achieved. Therefore, it's possible that there are still some core building blocks missing that are not yet well understood.
+> It's also important to consider that AGI is a highly debated topic, and different researchers have different interpretations of what constitutes AGI and how it can be achieved. Therefore, it's possible that there are still some core building blocks missing that are not yet well understood.
 
-Additionally, AGI is also a long-term goal that will require sustained efforts from multiple domains such as computer science, cognitive science, neuroscience, and engineering to achieve. It's important to remember that the development of AGI is a journey and not a destination, and we will continue to make progress and discover new challenges along the way.
+> Additionally, AGI is also a long-term goal that will require sustained efforts from multiple domains such as computer science, cognitive science, neuroscience, and engineering to achieve. It's important to remember that the development of AGI is a journey and not a destination, and we will continue to make progress and discover new challenges along the way.
 
 S: "It's important to remember that the development of AGI is a journey and not a destination" - that is a profound realization. How did you realize this truth?
 
